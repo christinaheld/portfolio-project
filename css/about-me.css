@@ -1,0 +1,294 @@
+.full-width {
+  width: 100%;
+  margin: 0 auto;
+  min-width: 1200px;
+}
+
+h3 {
+  padding: 5px 0px 10px 20px;
+  font-family: 'Lora', serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+h4 {
+  font-family: 'Lora', serif;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: lowercase;
+}
+
+h5 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 25px;
+  padding: 0px;
+}
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+}
+
+/***Header***/
+
+header {
+  height: 70px;
+  background-color: #ef9a9a;
+  border-bottom: solid 7px #ffcccb;
+  box-shadow: 2px 2px 4px #595959;
+  min-width: 1200px;
+}
+
+#title {
+  float: left;
+}
+
+ul li {
+  float: left;
+  list-style: none;
+  padding-right: 40px;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-transform: lowercase;
+  font-size: 20px;
+}
+
+.zoom {
+  transition: transform .4s;
+  width: 85px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.2);
+}
+
+nav {
+  float: right;
+  padding: 5px 0px 10px 0px;
+}
+
+
+/***About Me First Row***/
+
+.about-me {
+  height: 700px;
+  width: 100%;
+  margin: 0 auto;
+  float:left;
+  min-width: 1200px;
+}
+
+#about-me {
+  text-align: center;
+  padding: 1px 20px 0px 100px;
+  margin: 0 auto;
+  min-width: 1200px;
+}
+
+#about-me-image {
+  width: 450px;
+  height: 600px;
+  background-image: url('../img/master.jpeg');
+  background-size: cover;
+  float: left;
+  margin-top: 50px;
+  box-shadow: 6px 6px 8px #595959;
+  display: inline-block;
+}
+
+#about-me-text {
+  width: 500px;
+  height: 800px;
+  float: left;
+  padding: 20px 0px 0px 100px;
+  text-align: left;
+  display: inline-block;
+}
+
+/***About me Second Row***/
+
+.about-me-2 {
+  height: 800px;
+  width: 100%;
+  margin: 0 auto;
+  float:left;
+  text-align: center;
+  background-color:  #ffcccb;
+  min-width: 1200px;
+}
+
+.about-me-text-2 {
+  width: 350px;
+  height: 750px;
+  float: left;
+  padding: 20px 0px 0px 30px;
+  text-align: left;
+  display: inline-block;
+}
+
+ol {
+  list-style: circle;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-transform: lowercase;
+  font-size: 20px;
+}
+
+.about-images {
+  width: 350px;
+  height: 600px;
+  float: left;
+  min-height: 700px;
+  min-width: 400px;
+  margin: 60px 0px 0px 60px;
+  display: inline-block;
+}
+
+.about-me-image-2 {
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  float: left;
+  background-image: url('../img/ipad.jpg');
+  border: solid 5px white;
+  box-shadow: 6px 6px 8px #595959;
+  transform: rotate(10deg);
+}
+
+.about-me-image-3 {
+  width: 260px;
+  height: 210px;
+  background-size: cover;
+  float: left;
+  margin: 10px 0px 0px 0px;
+  background-image: url('../img/mug.jpg');
+  border: solid 5px white;
+  box-shadow: 6px 6px 8px #595959;
+  transform: rotate(355deg);
+}
+
+#services {
+  background-color: white;
+  border: none;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px #595959;
+}
+
+#services:hover {
+    background-color: #eddede;
+}
+
+/***Quiz Section***/
+
+.quiz {
+  height: 770px;
+  width: 100%;
+  margin: 0 auto;
+  float:left;
+  text-align: center;
+  min-width: 1200px;
+}
+
+#quiz {
+  text-align: center;
+  padding: 1px 0px 0px 20px;
+  margin: 0 auto;
+}
+
+.quiz-column-left {
+  width: 300px;
+  height: 600px;
+  float: left;
+  padding: 0px 80px 0px 60px;
+  text-align: left;
+  display: inline-block;
+}
+
+.quiz-column-right {
+  width: 300px;
+  height: 600px;
+  float: left;
+  padding: 0px 0px 0px 40px;
+  text-align: left;
+  display: inline-block;
+}
+
+.quiz-column-middle {
+  width: 400px;
+  height: 600px;
+  float: left;
+  display: inline-block;
+}
+
+.quiz-image {
+  width: 390px;
+  height: 280px;
+  background-size: cover;
+  float: left;
+  margin: 10px 0px 0px 0px;
+  background-image: url('../img/italy.png');
+  border: solid 5px white;
+  box-shadow: 6px 6px 8px #595959;
+  display: inline-block;
+}
+
+.quiz-image-2 {
+  width: 390px;
+  height: 280px;
+  background-size: cover;
+  float: left;
+  margin: 10px 0px 0px 0px;
+  background-image: url('../img/hugo2.jpg');
+  border: solid 5px white;
+  box-shadow: 6px 6px 8px #595959;
+  display: inline-block;
+}
+/***Contact Section***/
+
+.contact {
+  height: 700px;
+  background-image: url(../img/contact2.jpg);
+  background-size: cover;
+  clear:both;
+  min-width: 1200px;
+}
+
+#contact {
+  text-align: center;
+  padding: 1px 20px 20px 20px;
+  margin: 0 auto;
+}
+
+.contact-boxes {
+  padding: 0px 0px 0px 500px;
+  text-align: center;
+}
+
+h6 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+}
+
+/***Footer***/
+
+footer {
+  height: 70px;
+  background-color: #ef9a9a;
+  border-top: solid 7px #ffcccb;
+  text-align: center;
+  min-width: 1200px;
+}
+
+#copyright {
+  text-align: center;
+  padding: 0px 20px 0px 20px;
+  margin: 0;
+}

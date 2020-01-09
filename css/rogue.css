@@ -1,0 +1,161 @@
+/****Base Styles****/
+
+
+/****Grid****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+/****Header****/
+
+header {
+  height: 370px;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #77a466;
+  margin-left: 20px;
+}
+
+#pickings {
+  color: black;
+}
+
+nav ul {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight:bold;
+  color: #77a466;
+  list-style: none;
+  float: right;
+  clear: none;
+}
+
+.navlist {
+  float: left;
+  margin: 13px;
+}
+
+.image {
+  height: 280px;
+  width: 1170px;
+  margin: 20px 20px 0px 20px;
+  background-image: url('../img/rogue/hero.png');
+  size: cover;
+  clear: both;
+  border-style: solid;
+  border-color: #77a466;
+  border-width: 3px;
+}
+
+/****Main Section****/
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight:bold;
+  text-transform: uppercase;
+  color: #77a466;
+  margin-left: 20px;
+}
+
+#welcome {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: regular;
+  line-height: 25px;
+  margin-left: 20px;
+}
+
+/****Specials Reviews and Contact Section****/
+
+.section-one,
+.section-two,
+.section-three {
+	width: 370px;
+	height: 180px;
+	float: left;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.section-one {
+  border-right: 1px solid #eee;
+  margin-left: 20px;
+  padding-left: 0px;
+}
+
+.section-two {
+  border-right: 1px solid #eee;
+  padding: 0px 20px 0px 20px;
+}
+
+.section-three {
+  padding: 0px 0px 0px 20px;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 0px;
+}
+
+#specials {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: regular;
+  line-height: 30px;
+  list-style: none;
+  color: #77a466;
+  padding-left: 0px;
+}
+
+#review {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: regular;
+}
+
+#contact {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: regular;
+  line-height: 24px;
+}
+
+/****Footer Section****/
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight:bold;
+  text-transform: uppercase;
+}
+
+#fresh {
+  font-family: 'Dancing Script', cursive;
+  font-size: 16px;
+  color: #77a466;
+  text-transform: lowercase;
+}
+
+footer {
+  text-align: center;
+  height: 60px;
+  clear: both;
+  padding: auto;
+}

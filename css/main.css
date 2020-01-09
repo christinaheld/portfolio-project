@@ -1,0 +1,220 @@
+
+.full-width {
+  width: 100%;
+  margin: 0 auto;
+}
+
+h3 {
+  padding: 5px 0px 10px 20px;
+  font-family: 'Lora', serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+h4 {
+  font-family: 'Lora', serif;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: lowercase;
+}
+
+h5 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 25px;
+  padding: 0px;
+}
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+}
+/***Header***/
+
+header {
+  height: 70px;
+  background-color: #ef9a9a;
+  border-bottom: solid 7px #ffcccb;
+}
+
+#title {
+  float: left;
+}
+
+ul li {
+  float: left;
+  list-style: none;
+  padding-right: 40px;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-transform: lowercase;
+  font-size: 20px;
+}
+
+.zoom {
+  transition: transform .4s;
+  width: 85px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.2);
+}
+
+nav {
+  float: right;
+  padding: 5px 0px 10px 0px;
+}
+
+/***Styles Home Page***/
+/***Intro Section***/
+
+.intro {
+  height: 900px;
+  width: auto;
+  background-image: url('../img/hero-image3.jpg');
+  background-size: cover;
+}
+
+#intro {
+  margin-top: 0px;
+  float: right;
+  text-align: center;
+  padding:  90px 360px 0px  0px;
+  font-family: 'Lora', serif;
+  font-size: 40px;
+  font-weight: normal;
+  text-transform: lowercase;
+  color: #ef9a9a;
+}
+
+span {
+  font-family: 'Dancing Script', cursive;
+}
+
+/***Portfolio Section***/
+/***Portfolio Container***/
+.portfolio {
+  height: 900px;
+  background-color: #ffcccb;
+  margin: 0;
+  text-align: center;
+}
+
+/***Heading Portfolio Section***/
+#my-portfolio {
+  text-align: center;
+  padding: 1px 0px 0px 0px;
+}
+
+/***Projects columns***/
+
+.portfolio-wrapper {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.column {
+  width: 500px;
+  float: left;
+}
+
+#left-column {
+  margin-right: 40px;
+}
+
+#right-column {
+  margin-left: 40px;
+}
+
+/***Jubilee Austen Row***/
+
+#jubilee-austen-text {
+  height: 330px;
+  width: 550px;
+  text-align: right;
+}
+
+#jubilee-austen-image {
+  height: 346px;
+  width: 550px;
+  background-image: url('../img/jubilee-thumbnail.png');
+  background-size: cover;
+  border: solid 5px white;
+  box-shadow: 5px 5px 7px #595959;
+}
+
+/***Rogue Pickings Row***/
+#rogue-pickings-text {
+  height: 330px;
+  width: 550px;
+  text-align: left;
+  margin-top: 45px;
+}
+
+#rogue-pickings-image {
+  height: 346px;
+  width: 550px;
+  background-image: url('../img/rogue-pickings-thumbnail.png');
+  background-size: cover;
+  border: solid 5px white;
+  box-shadow: 5px 5px 7px #595959;
+}
+
+.portfolio-button {
+  background-color: white;
+  border: none;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px #595959;
+}
+
+.portfolio-button:hover {
+  background-color: #eddede;
+}
+
+/***Contact Section***/
+
+.contact {
+  height: 700px;
+  background-image: url(../img/contact2.jpg);
+  background-size: cover;
+  clear:both;
+}
+
+#contact {
+  text-align: center;
+  padding: 1px 20px 20px 20px;
+  margin: 0 auto;
+}
+
+.contact-boxes {
+  padding: 0px 0px 0px 500px;
+  text-align: center;
+}
+
+h6 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+}
+
+/***Footer***/
+
+footer {
+  height: 70px;
+  background-color: #ef9a9a;
+  border-top: solid 7px #ffcccb;
+  text-align: center;
+}
+
+#copyright {
+  text-align: center;
+  padding: 0px 20px 0px 20px;
+  margin: 0;
+}
